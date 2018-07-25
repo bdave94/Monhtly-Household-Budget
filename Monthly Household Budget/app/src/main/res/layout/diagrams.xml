@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/diagram_layout">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id= "@+id/diagram_monthly_expnese_text"
+        android:text="@string/diagram_expense_overview_chart_title"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/current_month_expinc_chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id= "@+id/diagram_exp_type_compare_text"
+        android:text="@string/diagram_expense_type_comparison_chart_title"/>
+
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/expense_types_chart">
+
+    </com.github.mikephil.charting.charts.BarChart>
+
+
+
+
+
+
+</LinearLayout>

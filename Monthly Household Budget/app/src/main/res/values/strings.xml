@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Monthly Household Budget</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="save_salary">Save</string>
+    <string name="toggle_text_expense">expense</string>
+    <string name="toggle_text_income">income</string>
+    <string name="warn_message">Name or Amount field is empty!</string>
+    <string name="menu_summary_option_name">Summary</string>
+    <string name="menu_list_option_name">Expense List</string>
+    <string name="menu_settings_option_name">Settings</string>
+    <string name="menu_graph_option_name">Diagrams</string>
+    <string name="summary_saving_text">Saving this month</string>
+    <string name="summary_expense_text">Expense this month</string>
+    <string name="summary_income_text">Income this month</string>
+    <string name="diagram_expense_overview_chart_title">Expense and income amounts this year</string>
+    <string name="diagram_expense_income_comparison_chart_title">Total expense and income this year</string>
+    <string name="diagram_expense_type_comparison_chart_title">Expense amounts by type</string>
+    <string name="main_name_text">Name:</string>
+    <string name="main_amount_name">Amount:</string>
+    <string name="main_date_name">Date:</string>
+    <string name="main_date_button_text">Set Date</string>
+    <string name="set_time">set time</string>
+    <string name="settings_notification_text">Notification time</string>
+    <string name="settings_enable_button_text">Enable</string>
+    <string name="settings_disable_button_text">Disable</string>
+    <string name="settings_delete_button_text">Delete All Entries</string>
+
+</resources>

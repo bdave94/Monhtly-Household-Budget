@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.aut.bme.androidwallet.hu.aut.bme.householdbudget.MainActivity">
+
+
+
+    <item
+        android:id="@+id/main_menu_option_one"
+        android:orderInCategory="1"
+        android:title="@string/menu_summary_option_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_menu_option_two"
+        android:orderInCategory="2"
+        android:title="@string/menu_graph_option_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_menu_option_three"
+        android:orderInCategory="3"
+        android:title="@string/menu_settings_option_name"
+        app:showAsAction="never" />
+
+</menu>
